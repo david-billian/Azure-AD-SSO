@@ -18,7 +18,7 @@ const msalConfig = {
 
 // Add here the endpoints and scopes for the web API you would like to use.
 const apiConfig = {
-  uri: 'http://localhost:5000/api', // e.g. http://localhost:5000/api
+  uri: 'http://localhost:8000/auth/user', // e.g. http://localhost:5000/api
   scopes: ['api://enter_your_clientID/Files.Read'] // e.g. ["scp1", "scp2"]
 };
 
